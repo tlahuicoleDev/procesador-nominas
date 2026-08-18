@@ -1,19 +1,23 @@
-version: '3.8'
-
 services:
   postgres:
-    image: postgres:18-alpine
+    image: postgres:18
     container_name: nomina_postgres
     environment:
       POSTGRES_USER: admin
       POSTGRES_PASSWORD: admin123
       POSTGRES_DB: nomina_db
+      POSTGRES_INITDB_ARGS: "--auth-host=scram-sha-256 --auth-local=scram-sha-256"
     ports:
-      - "5432:5432"
+      - "5434:5432"
     volumes:
       - ./database/init:/docker-entrypoint-initdb.d
-      - postgres_data:/var/lib/postgresql/data
-    restart: unless-stopped
+      - postgres_data:/var/lib/postgresql  # <--- CAMBIO CRUCIAL AQUÍ (sin /data)
+    restart: no
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U admin -d nomina_db"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
 
 volumes:
   postgres_data:

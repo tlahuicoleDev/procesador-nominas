@@ -1,0 +1,5 @@
+com\nomina\procesador\repository\PercepcionSegmentoRepository.class
+com\nomina\procesador\model\Cct.class
+com\nomina\procesador\model\PercepcionSegmento.class
+com\nomina\procesador\ProcesadorNominasApplication.class
+com\nomina\procesador\repository\CctRepository.class

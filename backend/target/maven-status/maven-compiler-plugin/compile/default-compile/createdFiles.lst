@@ -1,5 +1,13 @@
-com\nomina\procesador\repository\PercepcionSegmentoRepository.class
 com\nomina\procesador\model\Cct.class
-com\nomina\procesador\model\PercepcionSegmento.class
-com\nomina\procesador\ProcesadorNominasApplication.class
+com\nomina\procesador\model\TipoNomina.class
 com\nomina\procesador\repository\CctRepository.class
+com\nomina\procesador\service\ProcesadorExcelService$1.class
+com\nomina\procesador\controller\NominaController.class
+com\nomina\procesador\service\ProcesadorExcelService.class
+com\nomina\procesador\repository\TipoNominaRepository.class
+com\nomina\procesador\dto\RegistroNominaDTO.class
+com\nomina\procesador\ProcesadorNominasApplication.class
+com\nomina\procesador\repository\PercepcionSegmentoRepository.class
+com\nomina\procesador\service\ProcesamientoService.class
+com\nomina\procesador\model\PercepcionSegmento.class
+com\nomina\procesador\dto\ResumenNominaDTO.class

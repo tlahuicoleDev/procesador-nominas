@@ -1,5 +1,12 @@
+C:\dev\procesador-nominas\backend\src\main\java\com\nomina\procesador\controller\NominaController.java
+C:\dev\procesador-nominas\backend\src\main\java\com\nomina\procesador\dto\RegistroNominaDTO.java
+C:\dev\procesador-nominas\backend\src\main\java\com\nomina\procesador\dto\ResumenNominaDTO.java
 C:\dev\procesador-nominas\backend\src\main\java\com\nomina\procesador\model\Cct.java
 C:\dev\procesador-nominas\backend\src\main\java\com\nomina\procesador\model\PercepcionSegmento.java
+C:\dev\procesador-nominas\backend\src\main\java\com\nomina\procesador\model\TipoNomina.java
 C:\dev\procesador-nominas\backend\src\main\java\com\nomina\procesador\ProcesadorNominasApplication.java
 C:\dev\procesador-nominas\backend\src\main\java\com\nomina\procesador\repository\CctRepository.java
 C:\dev\procesador-nominas\backend\src\main\java\com\nomina\procesador\repository\PercepcionSegmentoRepository.java
+C:\dev\procesador-nominas\backend\src\main\java\com\nomina\procesador\repository\TipoNominaRepository.java
+C:\dev\procesador-nominas\backend\src\main\java\com\nomina\procesador\service\ProcesadorExcelService.java
+C:\dev\procesador-nominas\backend\src\main\java\com\nomina\procesador\service\ProcesamientoService.java
